@@ -34,6 +34,14 @@ public class ExemploList {
 		System.out.println(nomes);
 		nomes.set(2, "Overwrite");
 		System.out.println(nomes);
+		
+		String nome = nomes.get(3);
+		int tamanho = nomes.size();
+		boolean temMaria = nomes.contains("Maria");
+		
+		System.out.println(nome +", "+ tamanho);
+		System.out.println(temMaria);
+		
 	}
 
 }
