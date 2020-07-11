@@ -1,6 +1,8 @@
 package collections.queue;
 
 import java.util.Queue;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.LinkedList;
 
 public class ExercicioLinkedList {
@@ -32,6 +34,7 @@ public class ExercicioLinkedList {
 		System.out.println("Tamanho da lista: " + listaNomes.size());
 		System.out.println(listaNomes.isEmpty());
 		System.out.println(listaNomes.contains("Carlos"));
+		listaNomes.clear();
 		
 		
 	}

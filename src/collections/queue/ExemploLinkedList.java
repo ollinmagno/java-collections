@@ -1,4 +1,4 @@
-package collections.list;
+package collections.queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -37,6 +37,7 @@ public class ExemploLinkedList {
 		for(String client : filaBanco) {
 			System.out.println(client);
 		}
+		
 	}
 
 }

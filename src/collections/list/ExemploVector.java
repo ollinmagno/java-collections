@@ -27,5 +27,6 @@ public class ExemploVector {
 		for(String esporte : esportes) {
 			System.out.println(esporte);
 		}
+		
 	}
 }
