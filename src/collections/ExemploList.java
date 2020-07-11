@@ -11,6 +11,12 @@ public class ExemploList {
 	
 		List<String> nomes = new ArrayList<>();
 		List<Integer> numeros = new ArrayList<>();
+		List<String> novosNomes = new ArrayList<>();
+		novosNomes.add("Rodrigo");
+		novosNomes.add("Ismael");
+		
+		nomes.add(novosNomes.get(0));
+		nomes.add(novosNomes.get(1));
 		
 		numeros.add(5);
 		numeros.add(2);
