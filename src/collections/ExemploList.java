@@ -2,6 +2,7 @@ package collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class ExemploList {
@@ -41,6 +42,17 @@ public class ExemploList {
 		
 		System.out.println(nome +", "+ tamanho);
 		System.out.println(temMaria);
+		int posicao = nomes.indexOf("Magno");
+		System.out.println(posicao);
+		
+		for(String nomeDoItem: nomes) {
+			System.out.print(nomeDoItem + "| ");
+		}
+		System.out.println(" ");
+		Iterator<String> iterator = nomes.iterator();
+		
+		while (iterator.hasNext())
+			System.out.println("===> " + iterator.next());
 		
 	}
 
