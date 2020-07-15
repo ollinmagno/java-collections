@@ -1,4 +1,4 @@
-package collections.map;
+package digitalinnovation.map;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,7 +17,7 @@ public class ExemploHashMap {
 		campeoesMundialFifa.put("Espanha", 1);
 		
 		System.out.println(campeoesMundialFifa);
-
+		
 	}
 
 }

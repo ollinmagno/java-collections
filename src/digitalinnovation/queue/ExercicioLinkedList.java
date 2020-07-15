@@ -1,4 +1,4 @@
-package collections.queue;
+package digitalinnovation.queue;
 
 import java.util.Queue;
 import java.util.Collection;
