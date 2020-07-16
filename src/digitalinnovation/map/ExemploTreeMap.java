@@ -1,5 +1,6 @@
 package digitalinnovation.map;
 
+import java.util.Hashtable;
 import java.util.TreeMap;
 
 public class ExemploTreeMap {
@@ -16,7 +17,17 @@ public class ExemploTreeMap {
 		System.out.println(treeCapitais.firstKey());
 		System.out.println(treeCapitais.lastKey());
 		
-
+		TreeMap<String, String> estadosDoBrasil = new TreeMap<>();
+		estadosDoBrasil.put("AL", "Alagoas");
+		estadosDoBrasil.put("SP", "São Paulo");
+		estadosDoBrasil.put("MG", "Minas Gerais");
+		estadosDoBrasil.put("AC", "Acre");
+		estadosDoBrasil.put("AP", "Amapá");
+		estadosDoBrasil.put("AM", "Amazonas");
+		estadosDoBrasil.put("PB", "Paraíba");
+		estadosDoBrasil.put("MS", "Mato Grosso do Sul");
+		
+		
 	}
 
 }

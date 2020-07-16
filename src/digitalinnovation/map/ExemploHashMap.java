@@ -35,6 +35,7 @@ public class ExemploHashMap {
 		estadosDoBrasil.put("PB", "Paraíba");
 		estadosDoBrasil.put("MS", "Mato Grosso do Sul");
 		
+		System.out.println("teste: "+ estadosDoBrasil.get("AASD"));
 		System.out.println(estadosDoBrasil);
 		
 		estadosDoBrasil.remove("MG");
